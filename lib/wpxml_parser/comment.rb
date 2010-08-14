@@ -41,10 +41,6 @@ module WpxmlParser
       parent_id.to_i
     end
 
-    def process_comment_id(comment_id)
-      comment_id.to_i
-    end
-
     def process_date(date)
       Time.parse(date)
     end
