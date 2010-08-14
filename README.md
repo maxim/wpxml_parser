@@ -5,7 +5,11 @@ WordPress (version 3.x and I think there's a plugin for 2.x) can export xml with
 
 The cool thing is — you don't even need to have access to your own WordPress database, all you need is to download the xml file from your admin panel.
 
-### Let me demonstrate
+### Install
+
+    gem install wpxml_parser
+
+### Usage
 
     require 'wpxml_parser'
     include WpxmlParser
